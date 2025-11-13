@@ -4,8 +4,6 @@
 A collection of advanced **Python automation scripts** built to streamline Excel-based reporting workflows.  
 Developed during real-world automation projects, these scripts transform manual Excel processes into fully automated data pipelines using **pandas**, **DuckDB**, **xlwings**, and **win32com**.
 
----
-
 ## 🚀 Overview
 
 This repository contains multiple end-to-end automations used across live reporting setups.  
@@ -18,8 +16,6 @@ Each script independently handles a specific workflow — such as hygiene report
 - 🔁 Auto-filling formulas and maintaining formatting  
 - 💾 Saving final reports automatically (`_OUTPUT` versions)  
 - ⚠️ Logging and error-handling for each update step  
-
----
 
 ## 🧠 Workflow Structure
 
@@ -41,8 +37,6 @@ All automation scripts are built around a standard three-stage flow:
 - Print progress logs for each step  
 - Ensure proper Excel app closure to prevent COM lockups  
 
----
-
 ## 🧩 Tech Stack
 
 | Tool / Library | Purpose |
@@ -54,25 +48,7 @@ All automation scripts are built around a standard three-stage flow:
 | **win32com** | COM-based automation and legacy Excel handling |
 | **os / pathlib** | File path and directory management |
 
----
-
-## 📂 Repository Structure
-
 ```
-
-/Excel_Automation_Scripts
-│
-├── Acko Hygiene Report.py
-├── Zepto Half Hourly.py
-├── Meesho SS Chat.py
-│
-├── /Dumps
-│   ├── Raw data files used by the scripts
-│
-├── /Templates
-│   ├── Excel templates (.xlsb / .xlsx)
-│
-└── README.md
 
 ````
 
@@ -138,5 +114,3 @@ It’s a continuously evolving toolkit aimed at making business reporting faster
 ---
 
 ```
-
----
